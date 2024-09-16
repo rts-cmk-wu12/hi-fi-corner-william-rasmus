@@ -1,0 +1,28 @@
+.swiper{
+
+}
+
+.swiper-grid{
+display: grid;
+}
+
+.swiper-slide{
+grid-column: 1;
+grid-row: 1;
+}
+
+.gallery__heading{
+
+}
+
+.swiper-button-prev{
+
+}
+
+.swiper-button-next{
+
+}
+
+.imgWidth{
+    max-width: 1200px;
+}
