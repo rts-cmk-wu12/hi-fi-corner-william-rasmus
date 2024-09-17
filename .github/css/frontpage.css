@@ -90,21 +90,59 @@ body {
 
 .socials{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr
 }
 
-.socials > img{
+.socials-img{
     width: 100%;
 }
 
-.socials__box{
+.socials-grid{
+    display: grid;
+}
+
+.icon-facebook, .icon-b, .icon-twitter{
+    color: white;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.socials-img, .icon-facebook, .icon-b, .icon-twitter{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.icon-facebook, .icon-b, .icon-twitter{
+    font-size: 6em;
+}
+
+
+
+
+.socials__box-grid{
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     color: white;
-    padding: 5em 12em;
+    padding: 5em 14em;
+    text-align: center;
+    align-items: center;
+}
+
+.socials__box{
+margin: 5.3em;
 }
 
 .socials__box > h3 + p{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.socials__heading{
+    border: 1px solid rgb(91, 85, 85);
+    box-shadow: 0 2px 0 0;
+    margin: 0 6em;
+    padding: 0.4em 0.8em;
+    color: rgb(160, 111, 26);
     text-transform: uppercase;
 }
