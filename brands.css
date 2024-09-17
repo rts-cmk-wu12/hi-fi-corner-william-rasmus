@@ -33,14 +33,14 @@ main{
 
 .BrandHeaderDiv1 a:hover{
     text-decoration: none;
-    color: orange;
+    color: rgb(205, 151, 50);
     transition: 0.4s;
     
 }
 
 .BrandHeaderDiv2 a:hover{
     text-decoration: none;
-    color: orange;
+    color: rgb(205, 151, 50);
     transition: 0.4s;
     
 }
@@ -65,12 +65,10 @@ main{
 
 
 
+ 
 
-
-
-
-.hifibox{
-    border: 1px white solid;
+.top{
+    margin: 0;
 }
 
 .mainleft{
@@ -146,27 +144,100 @@ main{
     background-color: white;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 88%;
     height: 50vh;
     display: flex;
 }
 
 
 .venstre{
-    background-image: url(billeder/COLOURBOX49698251\ \(Small\).jpg);
+    background-color: black;
     height: 45vh;
-    width: 45%;
-    color: orange;
+    width: 47%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .højre{
-    background-image: url(billeder/COLOURBOX49698251\ \(Small\).jpg);
+    background-image: url(billeder/AURA1-Standard-Walnut-wstand.jpg);
     height: 45vh;
-    width: 45%;
+    width: 47%;
     text-decoration: none;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.højreP{
+    color: white;
+    margin-top: 2em;
+    font-size: 0.95em;
+}
+
+.højreH{
+    color: rgb(205, 151, 50);
+    margin-top: 1em;
+}
+
+.højreA{
+    margin-top: 1em;
+    color: rgb(205, 151, 50);
+}
+
+.venstreH{
+    color: rgb(205, 151, 50);
+    margin: 1em;
+    font-size: 1em;
+}
+
+
+.brandsfooter{
+    background-color: 	rgb(205, 151, 50);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footervenstre{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 10vh;
+    gap: 1em;
+}
+
+.fottervenstre1{
+    color: black;
+    font-size: 0.65em;
+    margin: 1em;
+}
+
+.fottervenstre2{
+    color: white;
+    font-size: 0.8em;
+    margin: 1em;
+    display: flex;
+    gap: 0.2em;
+    text-decoration: dashed;
+}
+
+.fottervenstre2 a{
+    color: white;
+    font-size: 1em;
+}
+
+.hvidlinje{
+    border: solid 1px white;
+}
+
+.fotterhøjre2{
+    margin: 1em;
+}
+
+.fotterhøjre2 a{
+    color: white;
+    font-size: 0.8em;
+    padding: 0.5em;
+    border: 1px solid white;
+    border-radius: 100%;
+}
