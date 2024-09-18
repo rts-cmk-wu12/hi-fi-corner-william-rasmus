@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.grid-container {
+    max-width: 900px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0 auto;
+    
+
+}
+
+.grid-container-box {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    
+}
+
+.box-img, .box-text {
+    grid-row: 1;
+    grid-column: 1;
+   
+}
+
+.shop-frontpage-link{
+     list-style: none;
+     text-decoration-color: white;
+     text-transform: uppercase;
+}
+
+.shop-frontpage-text{
+    font-size: 28px;
+    color: white;
+    
+}
+
+
