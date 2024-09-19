@@ -2,7 +2,8 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    position: relative; /* Add this to position the figcaption relative to the gallery */
+    position: relative;
+    /* Add this to position the figcaption relative to the gallery */
 }
 
 .imgWidth {
@@ -27,7 +28,7 @@
     font-size: 3em;
     position: absolute;
     top: 35px;
-    left: 25px; 
+    left: 25px;
     margin: 2em;
     text-transform: uppercase;
     max-width: 200px;
@@ -38,10 +39,13 @@
     justify-content: space-between;
     width: 100%;
     position: absolute;
+
 }
 
-.prevButton, .nextButton {
+.prevButton,
+.nextButton {
     border: none;
     background-color: white;
     font-size: 5em;
+    cursor: pointer;
 }

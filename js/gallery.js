@@ -25,3 +25,6 @@ let currentImageIndex = 0;
         nextButton.addEventListener('click', nextImage);
 
         showImage(currentImageIndex);
+
+
+        //   ? = terniary operator ( instead of: if else)

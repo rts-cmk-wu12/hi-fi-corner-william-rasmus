@@ -9,15 +9,12 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     margin: 0 auto;
-    
-
 }
 
 .grid-container-box {
     text-align: center;
     align-items: center;
     display: grid;
-    
 }
 
 .box-img, .box-text {
@@ -36,6 +33,17 @@ body {
     font-size: 28px;
     color: white;
     
+}
+
+.button-color{
+    background-color: rgb(165, 108, 42);
+}
+
+.shop-frontpage-button{
+    padding: 1em 2em;
+    border: none;
+    background-color: rgb(108, 66, 17);
+    margin: 5em;
 }
 
 
