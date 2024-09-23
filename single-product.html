@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/single-product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>hi-fi single-product</title>
 </head>
 
@@ -11,83 +13,126 @@
 
     <main>
         <section>
-            <div>
+            <div class="path">
                 <a class="home" href="">Home</a>
                 <a class="category-product" href="">Amplifiers</a>
                 <p class="single-product">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="advertisement-container">
-                <img class="advertisement" src="" alt="random advertisement">
+                <img class="advertisement" src="https://placehold.jp/1850x300.png" alt="random advertisement">
+                <div class="advertisement__text">
+                    <p class="advertisement__text--bigger">edinburgh store relocation
+                        <br><span class="advertisement__text--smaller">everything must go. contact us for details<span>
+                    </p>
+                    <p>sale</p>
+                </div>
             </div>
         </section>
-        <div>
-            <img src="" alt="">
-        </div>
-        <div>
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
-            <div class="flex-container">
-                <h2></h2>
-                <p></p>
-                <p></p>
+        <div class="content">
+            <div class="product-img">
+                <img src="https://placehold.jp/900x650.png" alt="">
+                <div>
+                    <p>more veiws</p>
+                </div>
             </div>
-            <p></p>
-            <div>
-                <button>ask a question</button>
-                <button>part exchange</button>
-                <button>pay by finance</button>
-                <button>seen a better price?</button>
-            </div>
-        </div>
-        <section>
-            <div>
-                <p>Finish &ast;</p>
-                <p>&ast;Required Fields</p>
-            </div>
-            <div>
+            <section>
 
-            </div>
+                <div class="product-name-container">
+                    <h2 class="single-product__name">Lorem ipsum dolor, sit amet consectetur.</h2>
 
-            <form action="">
-                <label for=""></label>
-                <select name="" id=""></select>
-                <button type="submit"></button>
-            </form>
-            <div>
-                <button></button>
-                <p>The safer, easier way to pay</p>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h2></h2>
-            </div>
-            <div>
-                <div>
+                    <div class="flex-container">
+                        <h3>see other marantz products</h3>
+                        <div>
+                            <p class="old-price">£321</p>
+                            <p class="new-price">£123</p>
+                        </div>
+
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, magni quo. Praesentium
+                        nesciunt
+                        suscipit necessitatibus quae dicta officiis architecto, ad vero reprehenderit facere sequi quam
+                        unde
+                        fuga quidem. Temporibus molestias tempora, ratione amet non harum reiciendis ducimus voluptatem
+                        nisi
+                        dolor modi ad aut debitis perspiciatis voluptatum iure, blanditiis nam illo ipsa quod iste a.
+                        Numquam ut minima commodi quo suscipit dolor.</p>
                     <p></p>
-                    <p></p>
+                    <div>
+                        <button class="single-product__button">ask a question</button>
+                        <button class="single-product__button">part exchange</button>
+                        <button class="single-product__button">pay by finance</button>
+                        <button class="single-product__button">seen a better price?</button>
+                    </div>
                 </div>
-                <div>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <p></p>
-                    <p></p>
-                </div>
-            </div>
-        </section>
+                <section class="grid-container">
+                    <div class="grid-container__radio-box">
+                        <div class="grid-container__ast">
+                            <p>Finish <span class="ast-color">&ast;</span></p>
+                            <p>&ast;Required Fields</p>
+                        </div>
+                        <div class="radio">
+                            <div class="radio-input"><input type="radio">
+                                <label for="black">Black</label>
+                            </div>
+                            <div class="radio-input"><input type="radio">
+                                <label for="silver">Silver</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="payment">
+                        <form action="">
+                            <label for="">Qty:</label>
+                            <select class="quantity__amount" name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                            <button class="quantity__button" type="submit">add to cart</button>
+                        </form>
+                        <div class="payment-container">
+                            <p>-or-</p>
+                            <button class="paypal__button"><i class="fa-brands fa-paypal"></i><i
+                                    class="fa-brands fa-cc-paypal"></i>check out</button>
+                            <p>The safer, easier way to pay</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="grid-container-information">
+                    <div>
+                        <h2>additional information</h2>
+                    </div>
+                    <div>
+                        <div>
+                            <p>manufacturer</p>
+                            <p class="manufacturer"></p>
+                        </div>
+                        <div>
+                            <p>manufacturer link</p>
+                            <p class="manufacturer-link"></p>
+                        </div>
+                        <div>
+                            <p>free warranty</p>
+                            <p class="warranty"></p>
+                        </div>
+                        <div>
+                            <p>delivery charge</p>
+                            <p class="delivery-charge"></p>
+                        </div>
+                        <div>
+                            <p>delivery time</p>
+                            <p class="delivery-time"></p>
+                        </div>
+                        <div>
+                            <p>card surcharges</p>
+                            <p class="surcharges"></p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
     </main>
 
 </body>

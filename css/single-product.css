@@ -1,0 +1,177 @@
+main{
+    margin: 1em;
+}
+.path{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-left: 0.2em;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-img{
+    min-width: 700px;
+    min-height: 700px;
+}
+
+.advertisement-container{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.advertisement, .advertisement__text{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.advertisement__text--bigger{
+    font-size: 60px;
+}
+
+.advertisement__text--smaller{
+    font-size: 39px;
+}
+
+
+.advertisement__text{
+    display: flex;
+    gap: 0.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 1em;
+}
+
+.advertisement__text:last-child{
+    font-size: 85px;
+    text-align: center;
+    align-items: center;
+}
+
+.product-name-container{
+grid-column: 2;
+}
+
+.single-product__name{
+    color: rgb(173, 150, 118);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container > div{
+    display: flex;
+    gap: 1em;
+    font-size: 1.8em;
+}
+
+.new-price{
+    color: rgb(173, 150, 118);
+
+}
+
+.old-price{
+    text-decoration:line-through;
+    opacity: .5;
+    
+}
+
+.single-product__button{
+    background-color: rgb(173, 150, 118);
+    color: white;
+    padding: 0.9em;
+    border: none;
+    text-transform: uppercase;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+.radio-input{
+    background-color: rgb(215, 209, 209);
+    padding: 0.5em 10em 0.5em 1em;
+    align-items: start;
+    font-weight: 600;
+}
+
+.grid-container{
+    border: 1px solid black;
+    grid-column: 2;
+    margin-top: 2em;
+}
+
+.grid-container-information{
+    grid-column: 2;
+}
+
+.grid-container__ast{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-container__radio-box{
+    padding: 0 1em;
+}
+
+
+.grid-container__ast > p:last-child, .ast-color{
+    color: red;
+}
+
+.payment{
+    background-color: rgb(215, 209, 209);
+    padding: 1em;
+}
+
+.quantity__amount{
+    padding: 0.7em;
+}
+
+.quantity__button{
+    background-color: rgb(173, 150, 118);
+    color: white;
+    padding: 0.9em 5em;
+    border: none;
+    text-transform: uppercase;
+}
+
+.payment-container{
+    border-bottom: 1px solid black;
+    padding-left: 7em;
+}
+
+.payment-container > p:first-child{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 3.2em;
+    color: rgb(173, 150, 118);
+    font-weight: 100;
+}
+
+.payment-container > p:last-child{
+    font-size: 12px;
+    padding-left: 2em;
+}
+
+.paypal__button{
+    display: flex;
+    padding: 0.5em 3em;
+    border-radius: 15px;
+    gap: 7px;
+    background-color: rgb(255, 187, 0); 
+}
+
+
