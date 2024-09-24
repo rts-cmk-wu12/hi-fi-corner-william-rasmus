@@ -1,90 +1,66 @@
-main{
+main {
     margin: 1em;
 }
-.path{
+
+.path {
     display: flex;
     gap: 1em;
     align-items: center;
     margin-left: 0.2em;
 }
 
-.content{
+.content {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.product-img{
-    min-width: 700px;
-    min-height: 700px;
+.advertisement-container {
+    margin-bottom: 1.5em;
 }
 
-.advertisement-container{
-    display: grid;
-    justify-content: center;
-    margin-bottom: 2em;
+.product-img {
+    width: 100%;
 }
 
-.advertisement, .advertisement__text{
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.advertisement__text--bigger{
-    font-size: 60px;
-}
-
-.advertisement__text--smaller{
-    font-size: 39px;
-}
-
-
-.advertisement__text{
-    display: flex;
-    gap: 0.5em;
+.product-img-veiws {
+    font-size: 30px;
+    color: rgb(173, 150, 118);
     text-transform: uppercase;
-    font-weight: 600;
-    margin-left: 1em;
 }
 
-.advertisement__text:last-child{
-    font-size: 85px;
-    text-align: center;
-    align-items: center;
+.product-name-container {
+    grid-column: 2;
 }
 
-.product-name-container{
-grid-column: 2;
-}
-
-.single-product__name{
+.single-product__name {
     color: rgb(173, 150, 118);
     text-transform: uppercase;
     margin: 0;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-between;
 }
 
-.flex-container > div{
+.flex-container>div {
     display: flex;
     gap: 1em;
     font-size: 1.8em;
 }
 
-.new-price{
+.new-price {
     color: rgb(173, 150, 118);
 
 }
 
-.old-price{
-    text-decoration:line-through;
+.old-price {
+    text-decoration: line-through;
     opacity: .5;
-    
+
 }
 
-.single-product__button{
+.single-product__button {
     background-color: rgb(173, 150, 118);
     color: white;
     padding: 0.9em;
@@ -92,7 +68,7 @@ grid-column: 2;
     text-transform: uppercase;
 }
 
-.radio{
+.radio {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -100,47 +76,46 @@ grid-column: 2;
     gap: 1em;
 }
 
-.radio-input{
+
+.radio-input {
     background-color: rgb(215, 209, 209);
     padding: 0.5em 10em 0.5em 1em;
     align-items: start;
     font-weight: 600;
 }
 
-.grid-container{
+.grid-container {
     border: 1px solid black;
     grid-column: 2;
     margin-top: 2em;
 }
 
-.grid-container-information{
-    grid-column: 2;
-}
 
-.grid-container__ast{
+.grid-container__ast {
     display: flex;
     justify-content: space-between;
 }
 
-.grid-container__radio-box{
+.grid-container__radio-box {
     padding: 0 1em;
 }
 
 
-.grid-container__ast > p:last-child, .ast-color{
+.grid-container__ast>p:last-child,
+.ast-color {
     color: red;
 }
 
-.payment{
+.payment {
     background-color: rgb(215, 209, 209);
     padding: 1em;
 }
 
-.quantity__amount{
+.quantity__amount {
     padding: 0.7em;
 }
 
-.quantity__button{
+.quantity__button {
     background-color: rgb(173, 150, 118);
     color: white;
     padding: 0.9em 5em;
@@ -148,12 +123,12 @@ grid-column: 2;
     text-transform: uppercase;
 }
 
-.payment-container{
+.payment-container {
     border-bottom: 1px solid black;
     padding-left: 7em;
 }
 
-.payment-container > p:first-child{
+.payment-container>p:first-child {
     text-transform: uppercase;
     font-size: 20px;
     margin-left: 3.2em;
@@ -161,17 +136,71 @@ grid-column: 2;
     font-weight: 100;
 }
 
-.payment-container > p:last-child{
+.payment-container>p:last-child {
     font-size: 12px;
     padding-left: 2em;
 }
 
-.paypal__button{
+.paypal__button {
     display: flex;
     padding: 0.5em 3em;
     border-radius: 15px;
     gap: 7px;
-    background-color: rgb(255, 187, 0); 
+    background-color: rgb(255, 187, 0);
 }
 
 
+.grid-container-information {
+    grid-column: 2;
+    width: 98%;
+    text-align: left;
+    text-transform: uppercase;
+    border-collapse: collapse;
+}
+
+.grid-container-information-heading {
+    text-transform: uppercase;
+    color: rgb(173, 150, 118);
+}
+
+tr {
+    border: 1px solid black;
+}
+
+.information-table-data {
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+.information-table-heading {
+    background-color: rgb(215, 209, 209);
+    width: 30%;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+.grid-container-description>h2 {
+    text-transform: uppercase;
+}
+
+.description {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.description-table-heading {
+    display: flex;
+
+}
+
+.description-table-data {
+    border: 1px solid black;
+}
+
+.call-us {
+    background-color: black;
+    color: rgb(173, 150, 118);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+}
