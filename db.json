@@ -1,0 +1,655 @@
+{
+    "manufacturer": [
+      {
+        "id": 1,
+        "name": "creek"
+      },
+      {
+        "id": 2,
+        "name": "exposure"
+      },
+      {
+        "id": 3,
+        "name": "parasound"
+      },
+      {
+        "id": 4,
+        "name": "manley"
+      },
+      {
+        "id": 5,
+        "name": "project"
+      },
+      {
+        "id": 6,
+        "name": "boesendorfer"
+      },
+      {
+        "id": 7,
+        "name": "epos"
+      },
+      {
+        "id": 8,
+        "name": "harbeth"
+      },
+      {
+        "id": 9,
+        "name": "jolida"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "title": "Creek classic CD player",
+        "price": 599,
+        "discount": 40,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/cd_afspillere/creek_classic_cd.jpg"],
+        "manufacturerId": 1,
+        "category": "cd-player",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 2,
+        "title": "Creek destiny CD player",
+        "price": 1000,
+        "discount": 100,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/cd_afspillere/creek_Destiny_CD.jpg"],
+        "manufacturerId": 1,
+        "category": "cd-player",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 3,
+        "title": "Creek evo CD player",
+        "price": 3000,
+        "discount": 75,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/cd_afspillere/creek_evo_cd.jpg"],
+        "manufacturerId": 1,
+        "category": "cd-player",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Exposure 2010S CD player",
+        "price": 3000,
+        "discount": 200,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/cd_afspillere/Exp_2010S_CD.gif"],
+        "manufacturerId": 2,
+        "category": "cd-player",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 5,
+        "title": "Creek classic DVD player",
+        "price": 4000,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/dvdafspillere/creek_classic.jpg"],
+        "manufacturerId": 1,
+        "category": "cd-player",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 6,
+        "title": "Exposure 2010S DVD player",
+        "price": 6000,
+        "discount": 100,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/dvdafspillere/exposure_2010S.jpg"],
+        "manufacturerId": 2,
+        "category": "cd-player",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 7,
+        "title": "Parasound D200 DVD player",
+        "price": 499,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/dvdafspillere/parasound_d200.jpg"],
+        "manufacturerId": 3,
+        "category": "cd-player",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 8,
+        "title": "Parasound HALOD3 DVD player",
+        "price": 699,
+        "discount": 50,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/dvdafspillere/parasound_halod3.jpg"],
+        "manufacturerId": 3,
+        "category": "cd-player",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 9,
+        "title": "Manley mahi",
+        "price": 999,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/effektforstaerkere/manley_mahi.jpg"],
+        "manufacturerId": 4,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 10,
+        "title": "Manley neo classic 300b",
+        "price": 1500,
+        "discount": 299,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/effektforstaerkere/manley_neoclassic300b.jpg"],
+        "manufacturerId": 4,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 11,
+        "title": "Manley snapper",
+        "price": 799,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/effektforstaerkere/manley_snapper.jpg"],
+        "manufacturerId": 4,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 12,
+        "title": "Parasound halo a23",
+        "price": 999,
+        "discount": 100,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/effektforstaerkere/parasound_haloa23.jpg"],
+        "manufacturerId": 3,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 13,
+        "title": "Creek OBH 22 passive preamp",
+        "price": 5299,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"],
+        "manufacturerId": 1,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 14,
+        "title": "Parasound classic 7100",
+        "price": 2299,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/forforstaerkere/parasound_classic7100.jpg"],
+        "manufacturerId": 3,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 15,
+        "title": "Parasound halo p3",
+        "price": 1599,
+        "discount": 50,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/forforstaerkere/parasound_halop3.jpg"],
+        "manufacturerId": 3,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 16,
+        "title": "Project prebox",
+        "price": 7050,
+        "discount": 1100,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/forforstaerkere/Project_prebox.jpg"],
+        "manufacturerId": 5,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 17,
+        "title": "Boesendorfer VCS wall",
+        "price": 899,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/hojtalere/boesendorfer_vcs_wall.gif"],
+        "manufacturerId": 6,
+        "category": "speaker",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 18,
+        "title": "Epos M5",
+        "price": 499,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/hojtalere/epos_m5.gif"],
+        "manufacturerId": 7,
+        "category": "speaker",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 19,
+        "title": "Harbeth HL7ES2",
+        "price": 599,
+        "discount": 100,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/hojtalere/harbeth_hl7es2.jpg"],
+        "manufacturerId": 8,
+        "category": "speaker",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 20,
+        "title": "Harbeth monitor 30",
+        "price": 999,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/hojtalere/harbeth_monitor30.jpg"],
+        "manufacturerId": 8,
+        "category": "speaker",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 21,
+        "title": "Harbeth P3ES2",
+        "price": 1200,
+        "discount": 99,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/hojtalere/harbeth_p3es2.jpg"],
+        "manufacturerId": 8,
+        "category": "speaker",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 22,
+        "title": "Creek A50I",
+        "price": 5559,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/int_forstaerkere/creek_a50I.jpg"],
+        "manufacturerId": 1,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 23,
+        "title": "Creek classic 5350SE",
+        "price": 3399,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/int_forstaerkere/creek_classic5350SE.jpg"],
+        "manufacturerId": 1,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 24,
+        "title": "Creek destiny amp",
+        "price": 8099,
+        "discount": 3000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/int_forstaerkere/creek_destinyamp.jpg"],
+        "manufacturerId": 1,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 25,
+        "title": "Manley snapper",
+        "price": 1299,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/int_forstaerkere/manley_snapper.jpg"],
+        "manufacturerId": 4,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 26,
+        "title": "Manley stingray",
+        "price": 1199,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "white"],
+        "pictures": ["src/assets/int_forstaerkere/Manley_Stingray.jpg"],
+        "manufacturerId": 4,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 27,
+        "title": "Project debut 3",
+        "price": 2299,
+        "discount": 229,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black", "red", "yellow"],
+        "pictures": ["src/assets/pladespillere/Pro_ject_Debut_3_bl.jpg", "src/assets/pladespillere/Pro_ject_Debut_III_red_1.jpg", "src/assets/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"],
+        "manufacturerId": 5,
+        "category": "turntable",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 28,
+        "title": "Project RPM 5",
+        "price": 8199,
+        "discount": 199,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black"],
+        "pictures": ["src/assets/pladespillere/Pro_ject_rpm_5.jpg"],
+        "manufacturerId": 5,
+        "category": "turntable",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 29,
+        "title": "Project RPM 10",
+        "price": 3999,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black"],
+        "pictures": ["src/assets/pladespillere/Pro_ject_rpm10.jpg"],
+        "manufacturerId": 5,
+        "category": "turntable",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 30,
+        "title": "Jolida JD102B",
+        "price": 5599,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black"],
+        "pictures": ["src/assets/roer_forstaerkere/jolida_JD102b.jpg"],
+        "manufacturerId": 9,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 31,
+        "title": "Jolida JD202A",
+        "price": 11299,
+        "discount": 1000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black"],
+        "pictures": ["src/assets/roer_forstaerkere/jolida_JD202a.jpg"],
+        "manufacturerId": 9,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 32,
+        "title": "Jolida JD300B",
+        "price": 50199,
+        "discount": 1000,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black"],
+        "pictures": ["src/assets/roer_forstaerkere/jolida_JD300b.jpg"],
+        "manufacturerId": 5,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 33,
+        "title": "Jolida JD302B",
+        "price": 22999,
+        "discount": 0,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black"],
+        "pictures": ["src/assets/roer_forstaerkere/jolida_JD302b.jpg"],
+        "manufacturerId": 9,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      },
+      {
+        "id": 31,
+        "title": "Jolida JD502B",
+        "price": 23999,
+        "discount": 3999,
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi totam error, deserunt maxime libero quisquam eius sit similique neque et exercitationem voluptates nisi doloremque necessitatibus inventore natus minima quam.",
+        "finish": ["black"],
+        "pictures": ["src/assets/roer_forstaerkere/jolida_JD502b.jpg"],
+        "manufacturerId": 9,
+        "category": "amplifier",
+        "specs": {
+          "manufacturerLink": "https://google.com",
+          "warranty-years": "4",
+          "delivery-fee": "Free",
+          "delivery-time": "1 - 5 working days",
+          "card-surcharges": "No"
+        }
+      }
+    ]
+  }
+  
