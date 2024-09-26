@@ -136,7 +136,7 @@
     padding-left: 7em;
 }
 
-.product-options__payment-container > p:first-child {
+.product-options__payment-container>p:first-child {
     text-transform: uppercase;
     font-size: 20px;
     margin-left: 3.2em;
@@ -144,7 +144,7 @@
     font-weight: 100;
 }
 
-.product-options__payment-container > p:last-child {
+.product-options__payment-container>p:last-child {
     font-size: 12px;
     padding-left: 2em;
 }
@@ -158,8 +158,6 @@
 }
 
 .product-additional-info {
-    grid-column: 2;
-    width: 98%;
     text-align: left;
     text-transform: uppercase;
     border-collapse: collapse;
@@ -176,7 +174,7 @@
 
 .product-additional-info__table-heading {
     background-color: rgb(215, 209, 209);
-    width: 30%;
+    width: 22%;
     padding: 0.5em;
     border: 1px solid black;
 }

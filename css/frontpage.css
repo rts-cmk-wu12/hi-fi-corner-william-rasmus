@@ -1,6 +1,8 @@
 body {
     font-family: "Museo sans rounded webfont", sans-serif;
+    position: relative;
 }
+
 
 .hifi-container {
     display: grid;
