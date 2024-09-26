@@ -12,179 +12,168 @@
 
 <body>
 
-    <main>
-        <section>
-            <div class="path">
-                <a class="home" href="">Home</a>
-                <a class="category-product" href="">Amplifiers</a>
-                <p class="single-product">Lorem ipsum dolor sit amet consectetur.</p>
-            </div>
-            <div class="advertisement-container">
-                <img class="product-img" src="/advertisement/adbanner.jpg" alt="">
-            </div>
+    <main class="main">
+        <section class="main__path">
+            <a class="main__link main__link--home" href="">Home</a>
+            <a class="main__link main__link--category" href="">Amplifiers</a>
+            <p class="main__product-description">Lorem ipsum dolor sit amet consectetur.</p>
         </section>
-        <div class="content">
-            <div class="product-img-product">
-                <img src="Produktbilleder/hojtalere/harbeth_monitor30.jpg" alt="">
-                <div class="product-img-veiws">
-                    <p>more veiws</p>
+        <div class="main__advertisement-container">
+            <img class="main__advertisement-img" src="/advertisement/adbanner.jpg" alt="">
+        </div>
+        <div class="main__content">
+            <div class="product">
+                <img class="product__img" src="Produktbilleder/hojtalere/harbeth_monitor30.jpg" alt="">
+                <div class="product__views">
+                    <p>more views</p>
                 </div>
             </div>
-            <section>
+            <section class="product-details">
+                <div class="product-details__name-container">
+                    <h2 class="product-details__name">Lorem ipsum dolor, sit amet consectetur.</h2>
 
-                <div class="product-name-container">
-                    <h2 class="single-product__name">Lorem ipsum dolor, sit amet consectetur.</h2>
-
-                    <div class="flex-container">
-                        <h3>see other marantz products</h3>
-                        <div>
-                            <p class="old-price">£321</p>
-                            <p class="new-price">£123</p>
+                    <div class="product-details__flex-container">
+                        <h3 class="product-details__other-products">see other marantz products</h3>
+                        <div class="product-details__pricing">
+                            <p class="product-details__price--old">£321</p>
+                            <p class="product-details__price--new">£123</p>
                         </div>
-
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, magni quo. Praesentium
-                        nesciunt
-                        suscipit necessitatibus quae dicta officiis architecto, ad vero reprehenderit facere sequi quam
-                        unde
-                        fuga quidem. Temporibus molestias tempora, ratione amet non harum reiciendis ducimus voluptatem
-                        nisi
-                        dolor modi ad aut debitis perspiciatis voluptatum iure, blanditiis nam illo ipsa quod iste a.
-                        Numquam ut minima commodi quo suscipit dolor.</p>
-                    <p></p>
-                    <div>
-                        <button class="single-product__button">ask a question</button>
-                        <button class="single-product__button">part exchange</button>
-                        <button class="single-product__button">pay by finance</button>
-                        <button class="single-product__button">seen a better price?</button>
+                    <p class="product-details__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, magni quo. Praesentium nesciunt suscipit necessitatibus quae dicta officiis architecto, ad vero reprehenderit facere sequi quam unde fuga quidem. Temporibus molestias tempora, ratione amet non harum reiciendis ducimus voluptatem nisi dolor modi ad aut debitis perspiciatis voluptatum iure, blanditiis nam illo ipsa quod iste a. Numquam ut minima commodi quo suscipit dolor.</p>
+                    <div class="product-details__buttons">
+                        <button class="product-details__button">ask a question</button>
+                        <button class="product-details__button">part exchange</button>
+                        <button class="product-details__button">pay by finance</button>
+                        <button class="product-details__button">seen a better price?</button>
                     </div>
                 </div>
-                <section class="grid-container">
-                    <div class="grid-container__radio-box">
-                        <div class="grid-container__ast">
-                            <p>Finish <span class="ast-color">&ast;</span></p>
+                <section class="product-options">
+                    <div class="product-options__radio-box">
+                        <div class="product-options__required-fields">
+                            <p>Finish <span class="product-options__asterisk">&ast;</span></p>
                             <p>&ast;Required Fields</p>
                         </div>
-                        <div class="radio">
-                            <div class="radio-input"><input type="radio">
+                        <div class="product-options__radio">
+                            <div class="product-options__radio-input">
+                                <input type="radio" id="black">
                                 <label for="black">Black</label>
                             </div>
-                            <div class="radio-input"><input type="radio">
+                            <div class="product-options__radio-input">
+                                <input type="radio" id="silver">
                                 <label for="silver">Silver</label>
                             </div>
                         </div>
-
                     </div>
-                    <div class="payment">
+                    <div class="product-options__payment">
                         <form action="">
                             <label for="">Qty:</label>
-                            <select class="quantity__amount" name="" id="">
+                            <select class="product-options__quantity" name="" id="">
                                 <option value="">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
                                 <option value="">4</option>
                                 <option value="">5</option>
                             </select>
-                            <button class="quantity__button" type="submit">add to cart</button>
+                            <button class="product-options__button" type="submit">add to cart</button>
                         </form>
-                        <div class="payment-container">
+                        <div class="product-options__payment-container">
                             <p>-or-</p>
-                            <button class="paypal__button"><i class="fa-brands fa-paypal"></i><i
-                                    class="fa-brands fa-cc-paypal"></i>check out</button>
-                            <p>The safer, easier way to pay</p>
+                            <button class="product-options__paypal-button">
+                                <i class="fa-brands fa-paypal"></i>
+                                <i class="fa-brands fa-cc-paypal"></i>check out
+                            </button>
+                            <p class="product-options__payment-description">The safer, easier way to pay</p>
                         </div>
                     </div>
                 </section>
-                <section>
-                    <table class="grid-container-information">
-                        <h2 class="grid-container-information-heading">additional information</h2>
+                <section class="product-additional-info">
+                    <h2 class="product-additional-info__heading">additional information</h2>
+                    <table class="product-additional-info__table">
                         <tr>
-                            <th class="information-table-heading">manufacturer</th>
-                            <td class="information-table-data">a</td>
+                            <th class="product-additional-info__table-heading">manufacturer</th>
+                            <td class="product-additional-info__table-data">a</td>
                         </tr>
                         <tr>
-                            <th class="information-table-heading">manufacturer link</th>
-                            <td class="information-table-data">b</td>
+                            <th class="product-additional-info__table-heading">manufacturer link</th>
+                            <td class="product-additional-info__table-data">b</td>
                         </tr>
                         <tr>
-                            <th class="information-table-heading">free warranty</th>
-                            <td class="information-table-data">c</td>
+                            <th class="product-additional-info__table-heading">free warranty</th>
+                            <td class="product-additional-info__table-data">c</td>
                         </tr>
                         <tr>
-                            <th class="information-table-heading">delivery charge</th>
-                            <td class="information-table-data">d</td>
+                            <th class="product-additional-info__table-heading">delivery charge</th>
+                            <td class="product-additional-info__table-data">d</td>
                         </tr>
                         <tr>
-                            <th class="information-table-heading">delivery time</th>
-                            <td class="information-table-data">e</td>
+                            <th class="product-additional-info__table-heading">delivery time</th>
+                            <td class="product-additional-info__table-data">e</td>
                         </tr>
                         <tr>
-                            <th class="information-table-heading">card surcharges</th>
-                            <td class="information-table-data">f</td>
+                            <th class="product-additional-info__table-heading">card surcharges</th>
+                            <td class="product-additional-info__table-data">f</td>
                         </tr>
                     </table>
                 </section>
             </section>
-            <section class="grid-container-description">
-                <h2>description</h2>
-                <table class="description">
+            <section class="product-description">
+                <h2 class="product-description__heading">description</h2>
+                <table class="product-description__table">
                     <tr>
-                        <th class="description-table-heading">Power Output (8 / 4 Ohm RMS)</th>
-                        <td class="description-table-data">45 W / 60 W</td>
-                        <td class="description-table-data">10 Hz</td>
+                        <th class="product-description__table-heading">Power Output (8 / 4 Ohm RMS)</th>
+                        <td class="product-description__table-data">45 W / 60 W</td>
+                        <td class="product-description__table-data">10 Hz</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Frequency Response</th>
-                        <td class="description-table-data">X</td>
-                        <td class="description-table-data">70 kHz</td>
+                        <th class="product-description__table-heading">Frequency Response</th>
+                        <td class="product-description__table-data">X</td>
+                        <td class="product-description__table-data">70 kHz</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Total Harmonic Distortion</th>
-                        <td class="description-table-data">0.08%</td>
+                        <th class="product-description__table-heading">Total Harmonic Distortion</th>
+                        <td class="product-description__table-data">0.08%</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Damping Factor</th>
-                        <td class="description-table-data">100</td>
+                        <th class="product-description__table-heading">Damping Factor</th>
+                        <td class="product-description__table-data">100</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Input Sensitivity MM</th>
-                        <td class="description-table-data">2.2mV / 47 kOhm</td>
+                        <th class="product-description__table-heading">Input Sensitivity MM</th>
+                        <td class="product-description__table-data">2.2mV / 47 kOhm</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Input Sensitivity MC</th>
-                        <td class="description-table-data">X</td>
+                        <th class="product-description__table-heading">Input Sensitivity MC</th>
+                        <td class="product-description__table-data">X</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Signal to Noise Ratio: MM / MC</th>
-                        <td class="description-table-data">83 dB</td>
-                        <td class="description-table-data">X</td>
+                        <th class="product-description__table-heading">Signal to Noise Ratio: MM / MC</th>
+                        <td class="product-description__table-data">83 dB</td>
+                        <td class="product-description__table-data">X</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Input Sensitivity: High level</th>
-                        <td class="description-table-data">200 mV / 20 kOhm</td>
+                        <th class="product-description__table-heading">Input Sensitivity: High level</th>
+                        <td class="product-description__table-data">200 mV / 20 kOhm</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Input Sensitivity: Balanced High level</th>
-                        <td class="description-table-data">X</td>
+                        <th class="product-description__table-heading">Input Sensitivity: Balanced High level</th>
+                        <td class="product-description__table-data">X</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Signal to Noise Ratio: High level</th>
-                        <td class="description-table-data">102dB(2V input)</td>
+                        <th class="product-description__table-heading">Signal to Noise Ratio: High level</th>
+                        <td class="product-description__table-data">102dB(2V input)</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Input Sensitivity: Power Amp Direct IN</th>
-                        <td class="description-table-data">X</td>
+                        <th class="product-description__table-heading">Input Sensitivity: Power Amp Direct IN</th>
+                        <td class="product-description__table-data">X</td>
                     </tr>
                     <tr>
-                        <th class="description-table-heading">Signal to Noise Ratio: Power Amp Direct IN</th>
-                        <td class="description-table-data">X</td>
+                        <th class="product-description__table-heading">Signal to Noise Ratio: Power Amp Direct IN</th>
+                        <td class="product-description__table-data">X</td>
                     </tr>
                 </table>
             </section>
-
-
         </div>
-        <div class="call-us">
+        <div class="main__call-us">
             <p><i class="fa-solid fa-phone"></i>call us about this product</p>
         </div>
     </main>

@@ -2,7 +2,12 @@ body {
     background-color: black;
 }
 
-.grid-container {
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.shop__grid {
     max-width: 900px;
     align-items: center;
     display: grid;
@@ -11,39 +16,37 @@ body {
     margin: 0 auto;
 }
 
-.grid-container-box {
+.shop__grid-item {
     text-align: center;
     align-items: center;
     display: grid;
 }
 
-.box-img, .box-text {
+.shop__item-img, .shop__item-text {
     grid-row: 1;
     grid-column: 1;
-   
 }
 
-.shop-frontpage-link{
-     list-style: none;
-     text-decoration-color: white;
-     text-transform: uppercase;
+.shop__item-link {
+    list-style: none;
+    text-decoration-color: white;
+    text-transform: uppercase;
 }
 
-.shop-frontpage-text{
+.shop__item-title {
     font-size: 28px;
     color: white;
-    
 }
 
-.button-color{
+.shop__button-container {
     background-color: rgb(165, 108, 42);
 }
 
-.shop-frontpage-button{
+.shop__button {
     padding: 1em 2em;
     border: none;
     background-color: rgb(108, 66, 17);
     margin: 5em;
+    cursor: pointer;
+    width: fit-content;
 }
-
-
