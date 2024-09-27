@@ -159,7 +159,7 @@ main{
 }
 
 .højre{
-    background-image: url(billeder/AURA1-Standard-Walnut-wstand.jpg);
+    background-image: url(/billeder/AURA1-Standard-Walnut-wstand.jpg);
     height: 45vh;
     width: 47%;
     text-decoration: none;
