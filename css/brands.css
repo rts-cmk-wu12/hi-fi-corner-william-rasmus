@@ -1,0 +1,263 @@
+
+
+*{margin: 0;
+    
+}
+
+main{
+    margin: 0;
+}
+
+.brandsheader{
+    background-color: black;
+}
+
+.BrandHeaderDiv1{
+    height: 3em;
+    display: flex;
+    justify-content: right;
+    gap: 2em;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.BrandHeaderDiv1 a{
+    opacity: 1;
+    color: white;
+}
+
+.BrandHeaderDiv2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.BrandHeaderDiv1 a:hover{
+    text-decoration: none;
+    color: rgb(205, 151, 50);
+    transition: 0.4s;
+    
+}
+
+.BrandHeaderDiv2 a:hover{
+    text-decoration: none;
+    color: rgb(205, 151, 50);
+    transition: 0.4s;
+    
+}
+
+.BrandHeaderDiv2{
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    align-items: center;
+    padding: 0.5em;
+    background-color: black;
+}
+
+.line{
+    border: 1px solid gray;
+    
+}
+
+
+
+
+
+
+ 
+
+.top{
+    margin: 0;
+}
+
+.mainleft{
+    font-size: 3em;
+    color: white;
+    padding: 1.5em 1em 0 0.4em;
+}
+
+.hifi-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+ 
+.overlay-box {
+    display: flex;
+    grid-row: 2 / 2;
+    height: 200px;
+    justify-self: center;
+    align-self: center;
+    gap: 50em;
+    
+}
+ 
+.img-frontpage-logo,
+.overlay-box {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+ 
+.overlay-box>p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+ 
+.img-frontpage-logo {
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+}
+ 
+.hifi-logo-container {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2.5em 1em 0 0.4em;
+    font-weight: 700;
+    width: 150px;
+    height: 130px;
+}
+ 
+.hifi-logo-container>p {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 2.3em;
+}
+ 
+.hifi-address {
+    color: rgb(255, 255, 255);
+}
+
+
+.bund{
+    height: 50vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandscontainer{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
+    height: 50vh;
+    display: flex;
+}
+
+
+.venstre{
+    background-color: black;
+    height: 45vh;
+    width: 47%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.højre{
+    background-image: url(/billeder/AURA1-Standard-Walnut-wstand.jpg);
+    height: 45vh;
+    width: 47%;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.højreP{
+    color: white;
+    margin-top: 2em;
+    font-size: 0.95em;
+}
+
+.højreH{
+    color: rgb(205, 151, 50);
+    margin-top: 1em;
+}
+
+.højreA{
+    margin-top: 1em;
+    color: rgb(205, 151, 50);
+}
+
+.venstreH{
+    color: rgb(205, 151, 50);
+    margin: 1em;
+    font-size: 1em;
+}
+
+
+.brandsfooter{
+    background-color: 	rgb(205, 151, 50);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footervenstre{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 10vh;
+    gap: 1em;
+}
+
+.footervenstre1{
+    color: black;
+    font-size: 0.65em;
+    margin: 1em;
+}
+
+.footervenstre2{
+    color: white;
+    font-size: 0.8em;
+    margin: 1em;
+    display: flex;
+    gap: 0.2em;
+    text-decoration: dashed;
+}
+
+.footervenstre2 a{
+    color: white;
+    font-size: 1em;
+}
+
+.hvidlinje{
+    border: solid 1px white;
+}
+
+
+
+.footerhøjre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1em;
+}
+
+.footerhøjre2{
+    margin: 1em;
+}
+
+.footerhøjre2 a{
+    color: white;
+    font-size: 0.8em;
+    padding: 0.5em;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+
+ 
+ 
+.logos {
+   max-height: 80px;
+    max-width: 80px;
+    height: auto;
+   
+}
