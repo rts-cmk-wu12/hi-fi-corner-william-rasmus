@@ -1,0 +1,66 @@
+.brandsfooter {
+    background-color: rgb(205, 151, 50);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footervenstre {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 10vh;
+    gap: 1em;
+}
+
+.footervenstre1 {
+    color: black;
+    font-size: 0.65em;
+    margin: 1em;
+}
+
+.footervenstre2 {
+    color: white;
+    font-size: 0.8em;
+    margin: 1em;
+    display: flex;
+    gap: 0.2em;
+    text-decoration: dashed;
+}
+
+.footervenstre2 a {
+    color: white;
+    font-size: 1em;
+}
+
+.hvidlinje {
+    border: solid 1px white;
+}
+
+.footerhøjre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 1em;
+}
+
+.footerhøjre2 {
+    margin: 1em;
+}
+
+.footerhøjre2 a {
+    color: white;
+    font-size: 0.8em;
+    padding: 0.5em;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.logos {
+    max-height: 80px;
+    max-width: 80px;
+    height: auto;
+
+}
