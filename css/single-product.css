@@ -94,10 +94,16 @@
     padding: 0 1em;
 }
 
+.product-options__asterisk, .product-options__required{
+    color: red;
+}
+
+
 .product-options__required-fields {
     display: flex;
     justify-content: space-between;
 }
+
 
 .product-options__radio {
     display: flex;
